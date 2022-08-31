@@ -1,6 +1,13 @@
 
 * Settings
 
-| Setting | Default | Branch Value | Unit |
-|---------+---------+--------------+------|
-|         |         |              |      |
+| Setting             | Default | Branch Value | Unit   |
+|---------------------+---------+--------------+--------|
+| Nozzle Temp.        |     245 |          245 | [C]    |
+| Print Speed         |      22 |           22 | [mm/s] |
+| Layer Height        |     0.2 |          0.2 | [mm]   |
+| Build Plate Temp.   |     120 |          120 | [C]    |
+| Infill Density      |      20 |           20 | [%]    |
+| Infill Type         |  gyroid |       gyroid | []     |
+| Exterior Wall Count |       3 |            3 | []     |
+| Z-Scale             | 112-114 |      112-114 | [%]    |
