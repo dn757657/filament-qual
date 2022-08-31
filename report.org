@@ -3,11 +3,11 @@
 - outline default settings for cavernaPP filament branch
 
 * Observations
-- critical observations
+- NA
 
 * Conclusion
-- critical outcomes of the branch
+- NA
 
 * Next
-- possible progression for next branches
+- print basic shape using default settings, observe dimensional accuracy
 
