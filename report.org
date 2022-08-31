@@ -13,6 +13,7 @@
 - new branches will be defined when either
   - test component changes
   - a new printing parameter is manipulated/explored
+  - a new filament is explored (always rebase to first commit/master branch)
 
 * Observations
 - critical observations
