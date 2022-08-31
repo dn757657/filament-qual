@@ -1,0 +1,25 @@
+
+* Intent
+- initial commit outlining repo structure and file structures
+  
+** File Struct
+- each branch should contian
+  1. a version of this report file
+  2. an .stl part file used in testing
+  3. a settings file for print settings
+  4. numerical data as needed in suitable/acessible file types
+
+** Branching
+- new branches will be defined when either
+  - test component changes
+  - a new printing parameter is manipulated/explored
+
+* Observations
+- critical observations
+
+* Conclusion
+- critical outcomes of the branch
+
+* Next
+- possible progression for next branches
+
