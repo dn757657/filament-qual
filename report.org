@@ -1,26 +1,8 @@
 
 * Intent
-- updates to repo structure and developping main and branch file structure
-  
-** File Struct
-- each branch should contian
-  1. a version of this report file
-  2. an .stl part file used in testing - will also be tracked via shapes repo
-  3. a settings file for print settings
-  4. numerical data as needed in suitable/acessible file types
-  5. config.ini file for slicer settings/config
-  6. gcode file used in branch test
-- important to note that each branch commit shoudl contain only ONE of the notes files other than potentially results file(s)
-
-** Branching
-- new branches will be defined when either
-  - test component changes
-  - a new printing parameter is manipulated/explored
-  - a new filament is explored (always rebase to first commit/master branch)
-
-** Shapes
-- shapes will be tracked/controlled in seperate repo
-- preferably note the intent of each shape, or intended exploit/observation/purpose of the shape in commit
+- observe baseline behaviors in PLA for shape 001
+- using base PLA profile for prusa PLA
+- using base prusa slicer profile for MK3S+ printer
 
 * Observations
 - critical observations
