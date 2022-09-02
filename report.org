@@ -1,6 +1,12 @@
 
 * Intent
-- outline default settings for cavernaPP filament branch
+- observe dimensional accuracy and layer adhesion behavior using recommended caverna printing profile
+- observe printing without infill
+- begin understanding of caverna post processing
+
+* Methodology
+- export gcode using default cavnera printing config file and shape_001
+- print shape_001 thin cylinder (primarily observe dimensional accuracy in x and y directions)
 
 * Observations
 - NA
