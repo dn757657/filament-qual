@@ -1,10 +1,6 @@
 
 * Intent
-- establish base config file for varioshore TPU
-- starting with lowest of any recommended settings as baseline
-- bed temp baseline set to 25 instead of minimum 20 as lab space may be above 20 (as has been observed)
-- no cooling for max adhesion
-- extrusion multiplier left at 1
+- observe dimensional accuracy and layer adhesion using minimum recommended settings (by manu.) as baseline
 
 * Observations
 - critical observations
