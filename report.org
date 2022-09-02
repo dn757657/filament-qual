@@ -1,19 +1,10 @@
 
 * Intent
-- initial commit outlining repo structure and file structures
-  
-** File Struct
-- each branch should contian
-  1. a version of this report file
-  2. an .stl part file used in testing
-  3. a settings file for print settings
-  4. numerical data as needed in suitable/acessible file types
-
-** Branching
-- new branches will be defined when either
-  - test component changes
-  - a new printing parameter is manipulated/explored
-  - a new filament is explored (always rebase to first commit/master branch)
+- establish base config file for varioshore TPU
+- starting with lowest of any recommended settings as baseline
+- bed temp baseline set to 25 instead of minimum 20 as lab space may be above 20 (as has been observed)
+- no cooling for max adhesion
+- extrusion multiplier left at 1
 
 * Observations
 - critical observations
