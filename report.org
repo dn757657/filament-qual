@@ -3,11 +3,12 @@
 - observe dimensional accuracy and layer adhesion using minimum recommended settings (by manu.) as baseline
 
 * Observations
-- critical observations
+- print failed to adhere to bed
+- did not complete first layer
 
 * Conclusion
-- critical outcomes of the branch
+- print failed to adhere to bed
 
 * Next
-- possible progression for next branches
-
+- increse bed temperature for better adhesion properties
+- add raft/brim 
