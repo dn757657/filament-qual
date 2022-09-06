@@ -4,16 +4,18 @@
 - observe printing without infill
 - begin understanding of caverna post processing
 
-* Methodology
-- export gcode using default cavnera printing config file and shape_001
-- print shape_001 thin cylinder (primarily observe dimensional accuracy in x and y directions)
-
 * Observations
-- NA
+- print failed
+- some layers completed, but evidence of issues with first layer indicate adhesion issues in all layers
+- very poor print quality before total failure
+- parts flexing significantly while printing, print head seemingly dragging parts as it prints
+- eventual complete delamination from bed
 
 * Conclusion
-- NA
+- adhesion issues leading to total print failure
 
 * Next
-- print basic shape using default settings, observe dimensional accuracy
+- provide some sort of first layer assistance, aka brim, raft, etc
+- bed temp is maxed so cannot increase
+- lower print speed
 
