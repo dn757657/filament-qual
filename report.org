@@ -1,21 +1,19 @@
 
 * Intent
-- observe dimensional accuracy and layer adhesion behavior using recommended caverna printing profile
-- observe printing without infill
-- begin understanding of caverna post processing
+- increase bed adhesion using brim
+- brim is chosen as a middle ground form bed adhesion assistance and that previous interation prints were doing OK until delamination from bed
+- establish another point of bed adhesion, given the extreme low point from previous iteration
+
+* Procedure
+- added 6 shape_001 to prusa slicer
+- 0 brim seperation
+- outer brim only
+- brim width in increments of 2 from 10 - 20mm as recommended by
+  - https://all3dp.com/2/cura-skirt-brim-raft-settings/
 
 * Observations
-- print failed
-- some layers completed, but evidence of issues with first layer indicate adhesion issues in all layers
-- very poor print quality before total failure
-- parts flexing significantly while printing, print head seemingly dragging parts as it prints
-- eventual complete delamination from bed
 
 * Conclusion
-- adhesion issues leading to total print failure
 
 * Next
-- provide some sort of first layer assistance, aka brim, raft, etc
-- bed temp is maxed so cannot increase
-- lower print speed
 
