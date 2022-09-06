@@ -5,11 +5,17 @@
 - using base prusa slicer profile for MK3S+ printer
 
 * Observations
-- critical observations
+- print successful
+- dispersed seam is visible throughout (where extruder completes outer perimeter and walks into inner perimeter) as small indent
+- slight over extrusion of outer diameter @ 10.275 mm 10.275/10 = 102.75%
+- first few layers underextruded
+- overextrusion causing smaller inner diam = 6.870 bottom, 6.638 top (worsens as print progresses?)
+- surface issue noticable every mm or so, single layer protrudes slightly
 
 * Conclusion
-- critical outcomes of the branch
+- printing is of reasonable quality given that no slicer corrections or advanced features are applied
 
 * Next
-- possible progression for next branches
+- apply elephant foot compensation/recommended first layer corrections (prusa defaults)
+- adjust extrusion scaling factor for better dimensional accuracy
 
