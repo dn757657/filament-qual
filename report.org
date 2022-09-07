@@ -1,10 +1,18 @@
 
 * Intent
-- establish base config file for varioshore TPU
-- starting with lowest of any recommended settings as baseline
-- bed temp baseline set to 25 instead of minimum 20 as lab space may be above 20 (as has been observed)
-- no cooling for max adhesion
-- extrusion multiplier left at 1
+- observe x and y planar behavior by using a shape with single layer in z axis
+- observe qualitative strength of part both along and across printed lines
+- observe dimensional accuracy both along and across extruded lines
+- observe bed adhesion at min acheiveable bed temps for smaller components (20x20mm v11)
+
+* Procedure
+- export latest part from shapes library to .stl corresponding to branch
+- import stl to slicer
+- import slicer config from qual branch
+  - used 100% aligned rectilinear infill @ 0 degrees to get linear lines only (see config)
+- plate parts as desired (three smaples for observing consistency)
+- export gcode to branch repo
+- print
 
 * Observations
 - critical observations
