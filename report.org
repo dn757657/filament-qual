@@ -15,11 +15,15 @@
 - print
 
 * Observations
-- critical observations
+- print failed due to bed adhesion
+- suspicion that this is in combination due to start with the low bound of the recommended bed temp, and low bound of recommended printing nozzle temps
+- this is noted becuase print began poorly but working, and eventually nozzle dragged print off of bed
+- it is also noted that during first layer calibration the bed is heated to 50deg and the nozzle 240deg (more in line with recommended maximums) and print adhesion appears to be much better
 
 * Conclusion
-- critical outcomes of the branch
+- print failed due to lack of adhesion, possible stemming from using the lower recommended bound of both nozzle temps and bed temps (from manufacturer).
 
 * Next
-- possible progression for next branches
+- branch using max recommended bed temp
+- branch using amx recommended nozzle temp
 
