@@ -14,9 +14,18 @@
 - print
 
 * Observations
+- g code did not wtich nozzle temps as desired, need to investigate
+- first sample printed but edges where nozzle turns around lifted, possibly due to low bed temp
+- little to no xy planar adhesion normal to extrusion
+- part if very strong along axial of extrusion
+- felxible
+- slightly underextruded
 
 * Conclusion
-
+- bed temps likely too low, investigate g code nozzle temp switching between parts
+- 200C is lower limit of extrusion temp
+  
 * Next
-- skirt, has trouble sticking due to nozzle oozing and buildup
+- perhaps rerun with proper g code, determine best of the run or upper bound and move to bed temp increases
+- elevated bed temp beneficial
 
