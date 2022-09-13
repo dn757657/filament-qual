@@ -9,7 +9,8 @@
 - import slicer config from qual branch
   - used 100% aligned rectilinear infill @ 0 degrees to get linear lines only (see config, single layer)
   - added extruders for different nozzle temps of each part, better way to do??
-- plate parts as desired, 6 samples each in increments of 10 degC starting at 200C, as we know 190 doesnt work at current master branch or default bed temp which is recommended min
+- plate parts as desired, 6 samples each in increments of 10 degC starting at 200C->260, as we know 190 doesnt work at current master branch or default bed temp which is recommended min
+- note that increments go over recommeneded max, this is intentional
 - export gcode to branch repo
 - print
 
