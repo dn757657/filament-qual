@@ -1,6 +1,7 @@
 
 * Intent
-- outline default settings for cavernaPP filament branch
+- observe x and y planal dimensional accuracy of cavernaPP filament
+- observe bed adhesion with recommended caverna default
 
 * Observations
 - NA
@@ -9,5 +10,4 @@
 - NA
 
 * Next
-- print basic shape using default settings, observe dimensional accuracy
 
