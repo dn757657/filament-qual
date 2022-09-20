@@ -19,9 +19,6 @@
 * Observations
 - 
 * Conclusion
-- print failed due to lack of adhesion, possible stemming from using the lower recommended bound of both nozzle temps and bed temps (from manufacturer).
 
 * Next
-- branch using max recommended bed temp
-- branch using amx recommended nozzle temp
 
