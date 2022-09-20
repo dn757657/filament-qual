@@ -4,22 +4,20 @@
 - observe qualitative strength of part both along and across printed lines
 - observe dimensional accuracy both along and across extruded lines
 - observe bed adhesion at min acheiveable bed temps for smaller components (20x20mm v11)
+- find lower bound of nozzle temp & bed temp where adhesion is ok
 
 * Procedure
 - export latest part from shapes library to .stl corresponding to branch
 - import stl to slicer
 - import slicer config from qual branch
   - used 100% aligned rectilinear infill @ 0 degrees to get linear lines only (see config)
-- plate parts as desired (three smaples for observing consistency)
+- plate parts as desired
+- gcode exported for eahc bed temp ranging from 20 to 60C in ten deg increments (20-40 recommended)
 - export gcode to branch repo
 - print
 
 * Observations
-- print failed due to bed adhesion
-- suspicion that this is in combination due to start with the low bound of the recommended bed temp, and low bound of recommended printing nozzle temps
-- this is noted becuase print began poorly but working, and eventually nozzle dragged print off of bed
-- it is also noted that during first layer calibration the bed is heated to 50deg and the nozzle 240deg (more in line with recommended maximums) and print adhesion appears to be much better
-
+- 
 * Conclusion
 - print failed due to lack of adhesion, possible stemming from using the lower recommended bound of both nozzle temps and bed temps (from manufacturer).
 
