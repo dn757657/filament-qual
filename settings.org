@@ -1,0 +1,22 @@
+* Key Settings and Limits
+
+** Experimental
+- confirmed to work experimentally
+
+| ID | Param          | Low Bound | Upper Bound | Unit | Notes |
+|----+----------------+-----------+-------------+------+-------|
+|  1 | bed temp       |       120 |         120 | C    |       |
+|  2 | extrusion temp |       245 |         245 | C    |       |
+|  3 | layer height   |       0.2 |         0.2 | mm   |       |
+
+** Recommended
+
+| ID | Param          | Low Bound | Upper Bound | Unit | Notes |
+|----+----------------+-----------+-------------+------+-------|
+|  1 | bed temp       |        95 |         125 | C    |       |
+|  2 | extrusion temp |       190 |         250 | C    |       |
+|  3 | layer height   |       0.1 |         0.2 | mm   |       |
+
+** Notes
+
+* Key Findings

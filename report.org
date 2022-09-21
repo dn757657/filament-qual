@@ -1,13 +1,21 @@
 
 * Intent
-- observe x and y planal dimensional accuracy of cavernaPP filament
+- observe x and y planar dimensional accuracy of cavernaPP filament
 - observe bed adhesion with recommended caverna default
 
 * Observations
-- NA
+- adhered to bed with default setting
+- post precessing caused warping in samples, likely not problematic
+- dimensional accuracy within 10% (perhaps trivial due to not following post processing standard)
 
 * Conclusion
-- NA
+- need to access correct post processing to observe results as manufacturer intended
+- using recommended settings yeilds sucessful prints
+- not sure if experimenting with temperature related params is warranted since physical properties are not 
 
 * Next
+- move onto shape 002 in upright pos
+- print speed could be optimized
+- layer height could be experimented with
+- nozzle temp could be optimized, as low as possible without affecting physical paramsx
 
