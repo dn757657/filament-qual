@@ -17,8 +17,12 @@
 - print
 
 * Observations
-- 
+- all prints fail to complete, partial adherance observed in samples 30 degrees and up
+- realize that at lower extrusion temperatures, product appears to foam less (volume output is decreased), because the extruded bead is smaller, it adheres less as the distance of the nozzle would need to be reduced to acheive the same extrusion width/smush
+  
 * Conclusion
+- extrusion temperature of 190C is non functional without exploring additional bed offset phenomena
 
 * Next
+- explore different first layer extrusion heights and observe adherance at low temperature
 
