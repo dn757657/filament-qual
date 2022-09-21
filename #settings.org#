@@ -1,0 +1,11 @@
+* Key Settings and Limits
+
+| ID | Param          | Low Bound | Upper Bound | Unit | Notes                       |
+|----+----------------+-----------+-------------+------+-----------------------------|
+|  1 | bed temp       | 25*       | ??          | C    | dependant on extrusion temp |
+|  2 | extrusion temp | 200**     | ??          | C    | dependant on bed temp       |
+|  3 |                |           |             |      |                             |
+
+** Notes
+- * adherance deteriorates below 240C extrusion temp
+- ** nozzle temps above 240C will always adhere, 200C can adhere at higher bed temperatures
