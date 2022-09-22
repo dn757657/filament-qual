@@ -1,10 +1,6 @@
 
 * Intent
-- observe x and y planar behavior by using a shape with single layer in z axis
-- observe qualitative strength of part both along and across printed lines
-- observe dimensional accuracy both along and across extruded lines
-- observe bed adhesion at min acheiveable bed temps for smaller components (20x20mm v11)
-- find lower bound of nozzle temp & bed temp where adhesion is ok
+- define low bound of bed temp given low bound of extrusion of 200
 
 * Procedure
 - export latest part from shapes library to .stl corresponding to branch
@@ -17,12 +13,11 @@
 - print
 
 * Observations
-- all prints fail to complete, partial adherance observed in samples 30 degrees and up
-- realize that at lower extrusion temperatures, product appears to foam less (volume output is decreased), because the extruded bead is smaller, it adheres less as the distance of the nozzle would need to be reduced to acheive the same extrusion width/smush
-  
+- edge curling in all samples
+
 * Conclusion
-- extrusion temperature of 190C is non functional without exploring additional bed offset phenomena
+- 200 degree minimum extrusion temp is not suitable
 
 * Next
-- explore different first layer extrusion heights and observe adherance at low temperature
+- print at various bed temps and extrusion temps to find low bound of both
 
