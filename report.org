@@ -1,10 +1,6 @@
 
 * Intent
-- observe x and y planar behavior by using a shape with single layer in z axis
-- observe qualitative strength of part both along and across printed lines
-- observe dimensional accuracy both along and across extruded lines
-- observe bed adhesion at min acheiveable bed temps for smaller components (20x20mm v11)
-- find lower bound of nozzle temp & bed temp where adhesion is ok
+- get lower bounded relationship of extrusion temp and bed temp where adhesion is reliable
 
 * Procedure
 - export latest part from shapes library to .stl corresponding to branch
@@ -12,17 +8,14 @@
 - import slicer config from qual branch
   - used 100% aligned rectilinear infill @ 0 degrees to get linear lines only (see config)
 - plate parts as desired
-- gcode exported for eahc bed temp ranging from 20 to 60C in ten deg increments (20-40 recommended)
+- 5 parts for extrusion temps 210-250 (as 200 was observed as non functional aat all bed temps previously)
+- gcode exported for each bed temp (10 C increments from 30-60), extrusion temp for each sample modified in g code
 - export gcode to branch repo
 - print
 
 * Observations
-- all prints fail to complete, partial adherance observed in samples 30 degrees and up
-- realize that at lower extrusion temperatures, product appears to foam less (volume output is decreased), because the extruded bead is smaller, it adheres less as the distance of the nozzle would need to be reduced to acheive the same extrusion width/smush
   
 * Conclusion
-- extrusion temperature of 190C is non functional without exploring additional bed offset phenomena
 
 * Next
-- explore different first layer extrusion heights and observe adherance at low temperature
 
